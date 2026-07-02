@@ -178,6 +178,27 @@ tr:last-child td { font-weight: 600; }
 .icon-dark { background: #2a2a3e; color: var(--accent); }
 .light .icon-dark { background: #f0edf8; color: var(--accent); }
 
+/* ─── Mobile ─── */
+@media (max-width: 640px) {
+  .container { padding: 0 22px; }
+  section { padding: 52px 0; }
+  .cover { min-height: 90vh; padding: 70px 0; }
+  .cover-logo img { height: 68px !important; }
+  .cover h1 { font-size: 30px; }
+  .cover-sub { font-size: 15px; margin-bottom: 40px; }
+  .cover-meta { font-size: 12px; }
+  .section-title { font-size: 23px; }
+  .section-text { font-size: 15px; margin-bottom: 28px; }
+  .card-grid { grid-template-columns: 1fr; gap: 14px; }
+  .card { padding: 20px; }
+  .highlight-box { padding: 24px 18px; }
+  .highlight-box h3 { font-size: 18px; }
+  .timeline-item { gap: 14px; margin-bottom: 20px; }
+  .mockup-wrapper { margin: 26px 0; border-radius: 10px; }
+  .proposal-footer { padding: 44px 20px; }
+  .logo-chip { padding: 18px 24px; }
+}
+
 /* ─── Print ─── */
 @media print {
   section { page-break-inside: avoid; }

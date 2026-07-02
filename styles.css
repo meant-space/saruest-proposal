@@ -58,11 +58,11 @@ section { padding: 80px 0; }
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: radial-gradient(ellipse at 50% 50%, rgba(141,115,246,0.08) 0%, var(--bg-dark) 70%);
+  background: radial-gradient(ellipse at 50% 50%, rgba(141,115,246,0.10) 0%, var(--bg-dark) 70%);
   position: relative;
 }
+.logo-chip { display:inline-flex; align-items:center; justify-content:center; background:#0d0817; border-radius:22px; padding:24px 36px; box-shadow:0 14px 44px rgba(141,115,246,0.20); }
 .cover-logo { margin-bottom: 60px; }
-.cover-logo img { height: 48px; }
 .cover h1 { font-size: 48px; font-weight: 300; line-height: 1.2; margin-bottom: 16px; }
 .cover h1 strong { font-weight: 700; }
 .cover-sub { font-size: 18px; color: var(--text-muted); margin-bottom: 60px; }
@@ -150,9 +150,10 @@ tr:last-child td { font-weight: 600; }
 .proposal-footer {
   text-align: center;
   padding: 60px 0;
-  background: var(--bg-dark);
-  color: var(--text-muted);
+  background: #f3f1fb;
+  color: var(--text-dark-muted);
   font-size: 13px;
+  border-top: 1px solid #e7e4f2;
 }
 .proposal-footer a { color: var(--accent); text-decoration: none; }
 
